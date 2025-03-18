@@ -35,7 +35,7 @@ public class Disciplina{
         this.CargaHoraria = CargaHoraria;
     }
 
-    public int getCargaHoraria(int CargaHoraria){
+    public int getCargaHoraria(){
         return this.CargaHoraria;
     }
 

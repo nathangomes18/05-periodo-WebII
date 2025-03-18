@@ -3,11 +3,16 @@ import java.util.List;
 
 public class Curso{
 
+
     private String nomeCurso;
     private List<Disciplina> disciplinas;
 
     public Curso(){
-        this("");
+        this("", new ArrayList<Disciplina>());
+    }
+    
+    public Curso(String nomeCurso){
+        this.nomeCurso = nomeCurso;
     }
 
     public Curso(String nomeCurso, List<Disciplina> disciplinas){
